@@ -4,6 +4,7 @@
 library(Seurat)
 library(SeuratData)
 library(patchwork)
+library(ggplot2)
 
 InstallData("ifnb")
 
@@ -22,4 +23,4 @@ immune.combined.sct <- RunUMAP(immune.combined.sct, reduction = "pca", dims = 1:
 p1 <- DimPlot(immune.combined.sct, reduction = "umap", group.by = "stim")
 p2 <- DimPlot(immune.combined.sct, reduction = "umap", group.by = "seurat_annotations", label = TRUE,
     repel = TRUE)
-p1 + p2
+ggsave('test.png',p1 + p2,width=20,height=10)
