@@ -55,3 +55,6 @@ jobs:
           name: figures
           path: |
             test.png
+            test2.png
+            test3.png
+            test4.png
