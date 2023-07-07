@@ -8,7 +8,8 @@ install_packages <- c(
     "statmod",
     "ggalt",
     "ggpubr",
-    "magick"
+    "magick",
+    "sctransform"
 )
 
 bioc_packages <- c(
@@ -20,7 +21,8 @@ bioc_packages <- c(
     "org.Hs.eg.db",
     "clusterProfiler",
     "dittoSeq",
-    "scater"
+    "scater",
+    "glmGamPoi"
 )
 
 
