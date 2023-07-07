@@ -1,3 +1,5 @@
+setRepositories(ind = 1:2)
+
 install_packages <- c(
     "circlize",
     "gridExtra",
