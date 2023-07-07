@@ -9,7 +9,8 @@ install_packages <- c(
     "ggalt",
     "ggpubr",
     "magick",
-    "sctransform"
+    "sctransform",
+    "Rcpp"
 )
 
 bioc_packages <- c(
