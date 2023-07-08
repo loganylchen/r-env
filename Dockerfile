@@ -2,7 +2,7 @@ FROM btrspg/vscode-base:latest
 
 ADD install_packages_R.R /tmp/
 
-RUN Rscript /tmp/install_packages_R.R  \
+RUN Rscript /tmp/install_packages_R.R
 
 
 
