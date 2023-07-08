@@ -25,14 +25,14 @@ install_packages <- c(
 #     "glmGamPoi"
 # )
 
+install.packages(install_packages)
 
-
-for (l in install_packages) {
-    install.packages(l, dependencies = TRUE)
-    if (!library(l, character.only = TRUE, logical.return = TRUE)) {
-        quit(status = 1, save = "no")
-    }
-}
+# for (l in install_packages) {
+#     install.packages(l, dependencies = TRUE)
+#     if (!library(l, character.only = TRUE, logical.return = TRUE)) {
+#         quit(status = 1, save = "no")
+#     }
+# }
 
 # devtools::install_github("YuLab-SMU/ggtree")
 # if (!library(ggtree, logical.return = TRUE)) {
