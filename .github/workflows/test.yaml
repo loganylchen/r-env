@@ -43,6 +43,7 @@ jobs:
         run: |
           chmod +x test.R
           docker run -v `pwd`:`pwd` -w `pwd` --rm app:test `pwd`/test.R
+          docker run --rm app:test packages.bash
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
