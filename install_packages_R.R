@@ -10,7 +10,8 @@ install_packages <- c(
     "sctransform",
     "Rcpp",
     "ggpubr",
-    "SoupX"
+    "SoupX",
+    "metap"
 )
 
 bioc_packages <- c(
@@ -22,7 +23,8 @@ bioc_packages <- c(
     "org.Hs.eg.db",
     "dittoSeq",
     "scater",
-    "glmGamPoi"
+    "glmGamPoi",
+    "multtest"
 )
 
 install.packages(install_packages)
