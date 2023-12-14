@@ -79,11 +79,11 @@ p8<-FeaturePlot(pbmc, features = c("MS4A1", "CD79A"), blend = TRUE)
 
 ggsave('test8.png',p8,width=10,height=10)
 
-p9<-VlnPlot(pbmc, features = "percent.mt", split.by = "groups")
+p9<-VlnPlot(pbmc, features = "percent.mt")
 
 ggsave('test9.png',p9,width=10,height=10)
 
-p10<-DotPlot(pbmc, features = features, split.by = "groups") + RotatedAxis()
+p10<-DotPlot(pbmc, features = features) + RotatedAxis()
 ggsave('test10.png',p10,width=10,height=10)
 p11 <- DoHeatmap(pbmc, features = VariableFeatures(pbmc)[1:100], cells = 1:500, size = 4,
     angle = 90) + NoLegend()
