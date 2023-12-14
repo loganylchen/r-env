@@ -39,6 +39,10 @@ jobs:
           context: ./
           load: true
           tags: app:test
+      - name: Prepare the data
+        run: |
+          wget https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz
+          tar -zxvf pbmc3k_filtered_gene_bc_matrices.tar.gz
       - name: Test
         run: |
           chmod +x test.R
@@ -55,7 +59,4 @@ jobs:
         with:
           name: figures
           path: |
-            test.png
-            test2.png
-            test3.png
-            test4.png
+            test*.png

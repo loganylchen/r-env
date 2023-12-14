@@ -44,7 +44,14 @@ bioc_packages <- c(
 
 install.packages(install_packages)
 BiocManager::install(bioc_packages)
-devtools::install_github("satijalab/seurat-data")
+
+setRepositories(ind = 1:3, addURLs = c('https://satijalab.r-universe.dev', 'https://bnprks.r-universe.dev/'))
+install.packages(c("BPCells", "presto", "glmGamPoi"))
+install.packages('Signac')
+devtools::install_github("satijalab/seurat-data", quiet = TRUE)
+devtools::install_github("satijalab/azimuth", quiet = TRUE)
+devtools::install_github("satijalab/seurat-wrappers", quiet = TRUE)
+
 
 
 IRkernel::installspec(name = "VSCODE_R", displayname = "VSCODE_R", user = FALSE)
