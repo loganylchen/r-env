@@ -23,7 +23,24 @@ library(MAST);
 library(org.Hs.eg.db);
 library(dittoSeq);
 library(scater);
-library(glmGamPoi)
+library(glmGamPoi);
+library(glmnet);
+library(RCircos);
+library(magrittr);
+library(stringr);
+library(ggplot2);
+library(clusterProfiler);
+library(org.Hs.eg.db);
+library(pROC);
+library(igraph);
+library(RColorBrewer);
+library(Seurat);
+library(glmGamPoi);
+library(MetBrewer);
+library(VennDiagram);
+library(ggalluvial);
+library(pheatmap);
+library(ggExtra);
 sessionInfo()
 "
 
