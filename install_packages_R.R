@@ -11,7 +11,20 @@ install_packages <- c(
     "Rcpp",
     "ggpubr",
     "SoupX",
-    "metap"
+    "metap",
+    "glmnet",
+    "RCircos",
+    "magrittr",
+    "stringr",
+    "ggplot2",
+    "pROC",
+    "igraph",
+    "RColorBrewer",
+    "MetBrewer",
+    "VennDiagram",
+    "ggalluvial",
+    "pheatmap",
+    "ggExtra"
 )
 
 bioc_packages <- c(
@@ -24,7 +37,9 @@ bioc_packages <- c(
     "dittoSeq",
     "scater",
     "glmGamPoi",
-    "multtest"
+    "multtest",
+    "clusterProfiler"
+    "glmGamPoi"
 )
 
 install.packages(install_packages)
