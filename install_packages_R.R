@@ -38,7 +38,7 @@ bioc_packages <- c(
     "scater",
     "glmGamPoi",
     "multtest",
-    "clusterProfiler"
+    "clusterProfiler",
     "glmGamPoi"
 )
 
