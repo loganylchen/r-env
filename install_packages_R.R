@@ -24,7 +24,9 @@ install_packages <- c(
     "VennDiagram",
     "ggalluvial",
     "pheatmap",
-    "ggExtra"
+    "ggExtra",
+    "foreach",
+    "doParallel"
 )
 
 bioc_packages <- c(
