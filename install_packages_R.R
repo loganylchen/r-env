@@ -41,7 +41,8 @@ bioc_packages <- c(
     "glmGamPoi",
     "multtest",
     "clusterProfiler",
-    "glmGamPoi"
+    "glmGamPoi",
+    "ComplexHeatmap"
 )
 
 install.packages(install_packages)
@@ -53,6 +54,7 @@ install.packages('Signac')
 devtools::install_github("satijalab/seurat-data", quiet = TRUE)
 devtools::install_github("satijalab/azimuth", quiet = TRUE)
 devtools::install_github("satijalab/seurat-wrappers", quiet = TRUE)
+devtools::install_github("jinworks/CellChat",quiet=TRUE)
 
 
 
