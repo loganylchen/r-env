@@ -26,7 +26,8 @@ install_packages <- c(
     "pheatmap",
     "ggExtra",
     "foreach",
-    "doParallel"
+    "doParallel",
+    "do"
 )
 
 bioc_packages <- c(
@@ -55,6 +56,7 @@ devtools::install_github("satijalab/seurat-data", quiet = TRUE)
 devtools::install_github("satijalab/azimuth", quiet = TRUE)
 devtools::install_github("satijalab/seurat-wrappers", quiet = TRUE)
 devtools::install_github("jinworks/CellChat",quiet=TRUE)
+devtools::install_github('erocoar/gghalves',quiet=TRUE)
 
 
 
