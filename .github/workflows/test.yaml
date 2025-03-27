@@ -41,11 +41,11 @@ jobs:
           tags: app:test
       - name: Prepare the data
         run: |
-          wget https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz
-          tar -zxvf pbmc3k_filtered_gene_bc_matrices.tar.gz
+          mkdir -p test_data/figures/
+          wget https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz -O test_data/pbmc3k_filtered_gene_bc_matrices.tar.gz
+          tar -zxvf test_data/pbmc3k_filtered_gene_bc_matrices.tar.gz -C test_data
       - name: Test
         run: |
-          chmod +x test.R
           docker run -v `pwd`:`pwd` -w `pwd` --rm app:test `pwd`/test.R
           docker run --rm app:test packages.bash
       - name: Build and push
@@ -60,4 +60,4 @@ jobs:
         with:
           name: figures
           path: |
-            test*.png
+            test_data/figures/test*.png
