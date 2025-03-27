@@ -1,4 +1,4 @@
-FROM btrspg/vscode-base:0.0.5
+FROM btrspg/vscode-base:latest
 
 ADD install_packages_R.R /tmp/
 ADD packages.bash /opt/bin/
