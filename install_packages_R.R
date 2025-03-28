@@ -24,7 +24,10 @@ install_packages <- c(
     "VennDiagram",
     "ggalluvial",
     "pheatmap",
-    "ggExtra"
+    "ggExtra",
+    "foreach",
+    "doParallel",
+    "do"
 )
 
 bioc_packages <- c(
@@ -39,19 +42,27 @@ bioc_packages <- c(
     "glmGamPoi",
     "multtest",
     "clusterProfiler",
-    "glmGamPoi"
+    "glmGamPoi",
+    "ComplexHeatmap"
 )
 
-install.packages(install_packages)
-BiocManager::install(bioc_packages)
+# install_packages.R
+tryCatch({
+    install.packages(install_packages)
+    BiocManager::install(bioc_packages)
+    setRepositories(ind = 1:3, addURLs = c('https://satijalab.r-universe.dev', 'https://bnprks.r-universe.dev/'))
+    install.packages(c("BPCells", "presto", "glmGamPoi"))
+    install.packages('Signac')
+    devtools::install_github("satijalab/seurat-data", quiet = TRUE)
+    devtools::install_github("satijalab/azimuth", quiet = TRUE)
+    devtools::install_github("satijalab/seurat-wrappers", quiet = TRUE)
+    devtools::install_github("jinworks/CellChat",quiet=TRUE)
+    devtools::install_github('erocoar/gghalves',quiet=TRUE)
+    IRkernel::installspec(name = "VSCODE_R", displayname = "VSCODE_R", user = FALSE)
+}, error = function(e) {
+  # 若安装过程中出现错误，打印错误信息并退出
+  message("R 包安装失败: ", conditionMessage(e))
+  quit(status = 1)
+})
 
-setRepositories(ind = 1:3, addURLs = c('https://satijalab.r-universe.dev', 'https://bnprks.r-universe.dev/'))
-install.packages(c("BPCells", "presto", "glmGamPoi"))
-install.packages('Signac')
-devtools::install_github("satijalab/seurat-data", quiet = TRUE)
-devtools::install_github("satijalab/azimuth", quiet = TRUE)
-devtools::install_github("satijalab/seurat-wrappers", quiet = TRUE)
 
-
-
-IRkernel::installspec(name = "VSCODE_R", displayname = "VSCODE_R", user = FALSE)

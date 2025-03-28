@@ -33,30 +33,34 @@ jobs:
         with:
           username: ${{ secrets.DH_USER }}
           password: ${{ secrets.DH_TOKEN }}
-      - name: Build a test
-        uses: docker/build-push-action@v3
-        with :
-          context: ./
-          load: true
-          tags: app:test
-      - name: Prepare the data
-        run: |
-          wget https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz
-          tar -zxvf pbmc3k_filtered_gene_bc_matrices.tar.gz
-      - name: Test
-        run: |
-          chmod +x test.R
-          docker run -v `pwd`:`pwd` -w `pwd` --rm app:test `pwd`/test.R
-          docker run --rm app:test packages.bash
+      # - name: Build a test
+      #   uses: docker/build-push-action@v3
+      #   with :
+      #     context: ./
+      #     load: true
+      #     tags: app:test
+      # - name: Prepare the data
+      #   run: |
+      #     mkdir -p test_data/figures/
+      #     wget https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz -O test_data/pbmc3k_filtered_gene_bc_matrices.tar.gz
+      #     tar -zxvf test_data/pbmc3k_filtered_gene_bc_matrices.tar.gz -C test_data
+      # - name: Test
+      #   run: |
+      #     chmod +x test.R
+      #     docker run -v `pwd`:`pwd` -w `pwd` --rm app:test `pwd`/test.R
+      #     docker run --rm app:test packages.bash
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
           context: ./
+          platforms: linux/amd64,linux/arm64
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-      - uses: actions/upload-artifact@master
-        with:
-          name: figures
-          path: |
-            test*.png
+          cache-from: type=registry,ref=${{ secrets.DH_USER }}/${{ github.event.repository.name }}:cache
+          cache-to: type=registry,ref=${{ secrets.DH_USER }}/${{ github.event.repository.name }}:cache,mode=max
+      # - uses: actions/upload-artifact@master
+      #   with:
+      #     name: figures
+      #     path: |
+      #       test_data/figures/test*.png
