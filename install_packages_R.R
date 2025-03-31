@@ -37,6 +37,7 @@ bioc_packages <- c(
     'PCAtools',
     'MAST',
     'org.Hs.eg.db',
+    'BSgenome.Hsapiens.UCSC.hg38',
     'dittoSeq',
     'scater',
     'glmGamPoi',
