@@ -32,9 +32,13 @@ generate_table_with_citations <- function(pkg_data) {
   # 生成带引用的表格
   c(
     "## Installed Packages with Citations\n",
-    "\n| Package | Version | Citation |", 
-    "|---------|---------|----------|",
-    sprintf("| %s | %s | %s |", pkg_data$Package, pkg_data$Version, citations),
+    "\n| Package | Version |  ", 
+    "|---------|---------|",
+    sprintf("| %s | %s |", pkg_data$Package, pkg_data$Version),
+    "\n",
+    "## Citations\n",
+    "\n",
+    sprintf("- %s\n",citations),
     "\n"
   )
 }
