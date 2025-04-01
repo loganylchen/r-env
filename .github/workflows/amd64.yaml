@@ -61,7 +61,7 @@ jobs:
       - name: Get installed package versions
         id: get_versions
         run: |
-          docker run --rm ${{ secrets.DH_USER }}/${{ github.event.repository.name }} Rscript -e "write.csv(installed.packages()[,c('Package', 'Version')], 'installed_packages.csv', row.names=FALSE,quote=FALSE)"
+          docker run -v `pwd`:`pwd` -w `pwd` --rm ${{ secrets.DH_USER }}/${{ github.event.repository.name }} Rscript -e "write.csv(installed.packages()[,c('Package', 'Version')], 'installed_packages.csv', row.names=FALSE,quote=FALSE)"
           bash readme_update.bash installed_packages.csv README.md
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
