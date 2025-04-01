@@ -62,12 +62,7 @@ jobs:
         id: get_versions
         run: |
           docker run --rm ${{ secrets.DH_USER }}/${{ github.event.repository.name }} Rscript -e "write.csv(installed.packages()[,c('Package', 'Version')], 'installed_packages.csv', row.names=FALSE,quote=FALSE)"
-          echo "## Installed Packages" > temp.md
-          echo "\n| Package | Version |" >> temp.md
-          echo "|---------|---------|" >> temp.md
-          awk -F, 'NR>1 {print \"| \" $1 \" | \" $2 \" |\"}' installed_packages.csv >> temp.md
-          echo "\n" >> temp.md
-          mv temp.md README.md
+          bash readme_update.bash installed_packages.csv README.md
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md installed_packages.csv
