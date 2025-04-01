@@ -12,7 +12,7 @@ if (length(args) < 2) {
 packages_csv <- args[1]
 output_file <- args[2]
 
-pkg_data <-installed.packages()
+pkg_data <-as.data.frame(installed.packages())
 
 
 write.csv(pkg_data[,c('Package', 'Version')], packages_csv, row.names=FALSE,quote=FALSE)
