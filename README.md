@@ -1,452 +1,452 @@
-## Installed Packages
+## Installed Packages with Citations
 
 
-| Package | Version |
-|---------|---------|
-| abind | 1.4-8 |
-| annotate | 1.84.0 |
-| AnnotationDbi | 1.68.0 |
-| AnnotationFilter | 1.30.0 |
-| ape | 5.8-1 |
-| aplot | 0.2.5 |
-| ash | 1.0-15 |
-| askpass | 1.2.1 |
-| assorthead | 1.0.1 |
-| Azimuth | 0.5.0 |
-| backports | 1.5.0 |
-| base64enc | 0.1-3 |
-| beachmat | 2.22.0 |
-| beeswarm | 0.4.0 |
-| BH | 1.87.0-1 |
-| Biobase | 2.66.0 |
-| BiocGenerics | 0.52.0 |
-| BiocIO | 1.16.0 |
-| BiocManager | 1.30.25 |
-| BiocNeighbors | 2.0.1 |
-| BiocParallel | 1.40.0 |
-| BiocSingular | 1.22.0 |
-| BiocVersion | 3.20.0 |
-| Biostrings | 2.74.1 |
-| bit | 4.6.0 |
-| bit64 | 4.6.0-1 |
-| bitops | 1.0-9 |
-| blob | 1.2.4 |
-| BPCells | 0.3.0 |
-| brew | 1.0-10 |
-| brio | 1.1.5 |
-| broom | 1.0.8 |
-| BSgenome | 1.74.0 |
-| BSgenome.Hsapiens.UCSC.hg38 | 1.4.5 |
-| bslib | 0.9.0 |
-| cachem | 1.1.0 |
-| Cairo | 1.6-2 |
-| callr | 3.7.6 |
-| car | 3.1-3 |
-| carData | 3.0-5 |
-| caTools | 1.18.3 |
-| CellChat | 2.1.2 |
-| cellranger | 1.1.0 |
-| circlize | 0.4.16 |
-| cli | 3.6.4 |
-| clipr | 0.8.0 |
-| clue | 0.3-66 |
-| clusterProfiler | 4.14.6 |
-| CNEr | 1.42.0 |
-| coda | 0.19-4.1 |
-| collections | 0.3.7 |
-| colorspace | 2.1-1 |
-| colourpicker | 1.3.0 |
-| commonmark | 1.9.5 |
-| ComplexHeatmap | 2.22.0 |
-| corrplot | 0.95 |
-| cowplot | 1.1.3 |
-| cpp11 | 0.5.2 |
-| crayon | 1.5.3 |
-| credentials | 2.0.2 |
-| crosstalk | 1.2.1 |
-| curl | 6.2.2 |
-| data.table | 1.17.0 |
-| DBI | 1.2.3 |
-| DelayedArray | 0.32.0 |
-| DelayedMatrixStats | 1.28.1 |
-| deldir | 2.0-4 |
-| DEoptimR | 1.1-3-1 |
-| Deriv | 4.1.6 |
-| desc | 1.4.3 |
-| DESeq2 | 1.46.0 |
-| devtools | 2.4.5 |
-| diffobj | 0.3.5 |
-| digest | 0.6.37 |
-| DirichletMultinomial | 1.48.0 |
-| dittoSeq | 1.18.0 |
-| do | 2.0.0.1 |
-| doBy | 4.6.25 |
-| doParallel | 1.0.17 |
-| DOSE | 4.0.1 |
-| dotCall64 | 1.2 |
-| downlit | 0.4.4 |
-| dplyr | 1.1.4 |
-| dqrng | 0.4.1 |
-| DT | 0.33 |
-| edgeR | 4.4.2 |
-| ellipsis | 0.3.2 |
-| enrichplot | 1.26.6 |
-| EnsDb.Hsapiens.v86 | 2.99.0 |
-| ensembldb | 2.30.0 |
-| evaluate | 1.0.3 |
-| extrafont | 0.19 |
-| extrafontdb | 1.0 |
-| fansi | 1.0.6 |
-| farver | 2.1.2 |
-| fastDummies | 1.7.5 |
-| fastmap | 1.2.0 |
-| fastmatch | 1.1-6 |
-| fgsea | 1.32.4 |
-| fitdistrplus | 1.2-2 |
-| FNN | 1.1.4.1 |
-| fontawesome | 0.5.3 |
-| foreach | 1.5.2 |
-| formatR | 1.14 |
-| Formula | 1.2-5 |
-| fs | 1.6.5 |
-| futile.logger | 1.4.3 |
-| futile.options | 1.0.1 |
-| future | 1.34.0 |
-| future.apply | 1.11.3 |
-| gargle | 1.5.2 |
-| generics | 0.1.3 |
-| GenomeInfoDb | 1.42.3 |
-| GenomeInfoDbData | 1.2.13 |
-| GenomicAlignments | 1.42.0 |
-| GenomicFeatures | 1.58.0 |
-| GenomicRanges | 1.58.0 |
-| gert | 2.1.5 |
-| GetoptLong | 1.0.5 |
-| ggalluvial | 0.12.5 |
-| ggalt | 0.4.0 |
-| ggbeeswarm | 0.7.2 |
-| ggExtra | 0.10.1 |
-| ggforce | 0.4.2 |
-| ggfun | 0.1.8 |
-| gghalves | 0.1.4 |
-| ggnetwork | 0.5.13 |
-| ggnewscale | 0.5.1 |
-| ggplot2 | 3.5.1 |
-| ggplotify | 0.1.2 |
-| ggpubr | 0.6.0 |
-| ggrastr | 1.0.2 |
-| ggrepel | 0.9.6 |
-| ggridges | 0.5.6 |
-| ggsci | 3.2.0 |
-| ggsignif | 0.6.4 |
-| ggtangle | 0.0.6 |
-| ggtree | 3.14.0 |
-| gh | 1.4.1 |
-| gitcreds | 0.1.2 |
-| glmGamPoi | 1.18.0 |
-| glmnet | 4.1-8 |
-| GlobalOptions | 0.1.2 |
-| globals | 0.16.3 |
-| glue | 1.8.0 |
-| GO.db | 3.20.0 |
-| goftest | 1.2-3 |
-| googledrive | 2.1.1 |
-| googlesheets4 | 1.1.1 |
-| GOSemSim | 2.32.0 |
-| gplots | 3.2.0 |
-| gridBase | 0.4-7 |
-| gridExtra | 2.3 |
-| gridGraphics | 0.5-1 |
-| gson | 0.1.0 |
-| gtable | 0.3.6 |
-| gtools | 3.9.5 |
-| HDF5Array | 1.34.0 |
-| hdf5r | 1.3.12 |
-| here | 1.0.1 |
-| hexbin | 1.28.5 |
-| highr | 0.11 |
-| hms | 1.1.3 |
-| htmltools | 0.5.8.1 |
-| htmlwidgets | 1.6.4 |
-| httpuv | 1.6.15 |
-| httr | 1.4.7 |
-| httr2 | 1.1.2 |
-| ica | 1.0-3 |
-| ids | 1.0.1 |
-| igraph | 2.1.4 |
-| ini | 0.3.1 |
-| IRanges | 2.40.1 |
-| IRdisplay | 1.1 |
-| IRkernel | 1.3.2 |
-| irlba | 2.3.5.1 |
-| isoband | 0.2.7 |
-| iterators | 1.0.14 |
-| JASPAR2020 | 0.99.10 |
-| jquerylib | 0.1.4 |
-| jsonlite | 2.0.0 |
-| KEGGREST | 1.46.0 |
-| knitr | 1.50 |
-| labeling | 0.4.3 |
-| lambda.r | 1.2.4 |
-| languageserver | 0.3.16 |
-| later | 1.4.1 |
-| lazyeval | 0.2.2 |
-| leidenbase | 0.1.32 |
-| lifecycle | 1.0.4 |
-| limma | 3.62.2 |
-| lintr | 3.2.0 |
-| listenv | 0.9.1 |
-| lme4 | 1.1-37 |
-| lmtest | 0.9-40 |
-| locfit | 1.5-9.12 |
-| magick | 2.8.6 |
-| magrittr | 2.0.3 |
-| maps | 3.4.2.1 |
-| MAST | 1.32.0 |
-| mathjaxr | 1.6-0 |
-| MatrixGenerics | 1.18.1 |
-| MatrixModels | 0.5-4 |
-| matrixStats | 1.5.0 |
-| memoise | 2.0.1 |
-| metap | 1.12 |
-| MetBrewer | 0.2.0 |
-| microbenchmark | 1.5.0 |
-| mime | 0.13 |
-| miniUI | 0.1.1.1 |
-| minqa | 1.2.8 |
-| mnormt | 2.1.1 |
-| modelr | 0.1.11 |
-| multcomp | 1.4-28 |
-| multtest | 2.62.0 |
-| munsell | 0.5.1 |
-| mutoss | 0.1-13 |
-| mvtnorm | 1.3-3 |
-| network | 1.19.0 |
-| nloptr | 2.2.1 |
-| NMF | 0.28 |
-| numDeriv | 2016.8-1.1 |
-| openssl | 2.3.2 |
-| openxlsx | 4.2.8 |
-| org.Hs.eg.db | 3.20.0 |
-| parallelly | 1.43.0 |
-| patchwork | 1.3.0 |
-| pbapply | 1.7-2 |
-| pbdZMQ | 0.3-13 |
-| pbkrtest | 0.5.3 |
-| PCAtools | 2.18.0 |
-| pheatmap | 1.0.12 |
-| pillar | 1.10.1 |
-| pkgbuild | 1.4.7 |
-| pkgconfig | 2.0.3 |
-| pkgdown | 2.1.1 |
-| pkgload | 1.4.0 |
-| plogr | 0.2.0 |
-| plotly | 4.10.4 |
-| plotrix | 3.8-4 |
-| plyr | 1.8.9 |
-| png | 0.1-8 |
-| polyclip | 1.10-7 |
-| polynom | 1.4-1 |
-| poweRlaw | 1.0.0 |
-| pracma | 2.4.4 |
-| praise | 1.0.0 |
-| presto | 1.0.0 |
-| prettyunits | 1.2.0 |
-| pROC | 1.18.5 |
-| processx | 3.8.6 |
-| profvis | 0.4.0 |
-| progress | 1.2.3 |
-| progressr | 0.15.1 |
-| proj4 | 1.0-15 |
-| promises | 1.3.2 |
-| ProtGenerics | 1.38.0 |
-| ps | 1.9.0 |
-| purrr | 1.0.4 |
-| pwalign | 1.2.0 |
-| qqconf | 1.3.2 |
-| quantreg | 6.1 |
-| qvalue | 2.38.0 |
-| R.cache | 0.16.0 |
-| R.methodsS3 | 1.8.2 |
-| R.oo | 1.27.0 |
-| R.utils | 2.13.0 |
-| R6 | 2.6.1 |
-| ragg | 1.3.3 |
-| RANN | 2.6.2 |
-| rappdirs | 0.3.3 |
-| rbibutils | 2.3 |
-| RCircos | 1.2.2 |
-| rcmdcheck | 1.4.0 |
-| RColorBrewer | 1.1-3 |
-| Rcpp | 1.0.14 |
-| RcppAnnoy | 0.0.22 |
-| RcppArmadillo | 14.4.1-1 |
-| RcppEigen | 0.3.4.0.2 |
-| RcppHNSW | 0.6.0 |
-| RcppML | 0.3.7 |
-| RcppProgress | 0.4.2 |
-| RcppRoll | 0.3.1 |
-| RcppTOML | 0.2.3 |
-| RCurl | 1.98-1.17 |
-| Rdpack | 2.6.3 |
-| readr | 2.1.5 |
-| reformulas | 0.4.0 |
-| registry | 0.5-1 |
-| rematch | 2.0.0 |
-| rematch2 | 2.1.2 |
-| remotes | 2.5.0 |
-| repr | 1.1.7 |
-| reshape2 | 1.4.4 |
-| restfulr | 0.0.15 |
-| reticulate | 1.42.0 |
-| rex | 1.2.1 |
-| rhdf5 | 2.50.2 |
-| rhdf5filters | 1.18.1 |
-| Rhdf5lib | 1.28.0 |
-| Rhtslib | 3.2.0 |
-| rjson | 0.2.23 |
-| rlang | 1.1.5 |
-| rmarkdown | 2.29 |
-| rngtools | 1.5.2 |
-| robustbase | 0.99-4-1 |
-| ROCR | 1.0-11 |
-| roxygen2 | 7.3.2 |
-| rprojroot | 2.0.4 |
-| Rsamtools | 2.22.0 |
-| RSpectra | 0.16-2 |
-| RSQLite | 2.3.9 |
-| rstatix | 0.7.2 |
-| rstudioapi | 0.17.1 |
-| rsvd | 1.0.5 |
-| rtracklayer | 1.66.0 |
-| Rtsne | 0.17 |
-| Rttf2pt1 | 1.3.12 |
-| rversions | 2.1.2 |
-| rvest | 1.0.4 |
-| S4Arrays | 1.6.0 |
-| S4Vectors | 0.44.0 |
-| sandwich | 3.1-1 |
-| sass | 0.4.9 |
-| ScaledMatrix | 1.14.0 |
-| scales | 1.3.0 |
-| scater | 1.34.1 |
-| scattermore | 1.2 |
-| scatterpie | 0.2.4 |
-| sctransform | 0.4.1 |
-| scuttle | 1.16.0 |
-| selectr | 0.4-2 |
-| seqLogo | 1.72.0 |
-| sessioninfo | 1.2.3 |
-| Seurat | 5.2.1 |
-| SeuratData | 0.2.2.9002 |
-| SeuratDisk | 0.0.0.9021 |
-| SeuratObject | 5.0.2 |
-| SeuratWrappers | 0.4.0 |
-| shape | 1.4.6.1 |
-| shiny | 1.10.0 |
-| shinyBS | 0.61.1 |
-| shinydashboard | 0.7.2 |
-| shinyjs | 2.1.0 |
-| Signac | 1.14.0 |
-| SingleCellExperiment | 1.28.1 |
-| sitmo | 2.0.2 |
-| sn | 2.1.1 |
-| sna | 2.8 |
-| snow | 0.4-4 |
-| SoupX | 1.6.2 |
-| sourcetools | 0.1.7-1 |
-| sp | 2.2-0 |
-| spam | 2.11-1 |
-| SparseArray | 1.6.2 |
-| SparseM | 1.84-2 |
-| sparseMatrixStats | 1.18.0 |
-| spatstat.data | 3.1-6 |
-| spatstat.explore | 3.4-2 |
-| spatstat.geom | 3.3-6 |
-| spatstat.random | 3.3-3 |
-| spatstat.sparse | 3.1-0 |
-| spatstat.univar | 3.1-2 |
-| spatstat.utils | 3.1-3 |
-| statmod | 1.5.0 |
-| statnet.common | 4.11.0 |
-| stringi | 1.8.7 |
-| stringr | 1.5.1 |
-| styler | 1.10.3 |
-| SummarizedExperiment | 1.36.0 |
-| svglite | 2.1.3 |
-| sys | 3.4.3 |
-| systemfonts | 1.2.1 |
-| tensor | 1.5 |
-| testthat | 3.2.3 |
-| textshaping | 1.0.0 |
-| TFBSTools | 1.44.0 |
-| TFisher | 0.2.0 |
-| TFMPvalue | 0.0.9 |
-| TH.data | 1.1-3 |
-| tibble | 3.2.1 |
-| tidyr | 1.3.1 |
-| tidyselect | 1.2.1 |
-| tidytree | 0.4.6 |
-| tinytex | 0.56 |
-| tmcn | 0.2-13 |
-| treeio | 1.30.0 |
-| tweenr | 2.0.3 |
-| tzdb | 0.5.0 |
-| UCSC.utils | 1.2.0 |
-| urlchecker | 1.0.1 |
-| usethis | 3.1.0 |
-| utf8 | 1.2.4 |
-| uuid | 1.2-1 |
-| uwot | 0.2.3 |
-| vctrs | 0.6.5 |
-| VennDiagram | 1.7.3 |
-| vipor | 0.4.7 |
-| viridis | 0.6.5 |
-| viridisLite | 0.4.2 |
-| vroom | 1.6.5 |
-| waldo | 0.6.1 |
-| whisker | 0.4.1 |
-| withr | 3.0.2 |
-| xfun | 0.51 |
-| XML | 3.99-0.18 |
-| xml2 | 1.3.8 |
-| xmlparsedata | 1.0.5 |
-| xopen | 1.0.1 |
-| xtable | 1.8-4 |
-| XVector | 0.46.0 |
-| yaml | 2.3.10 |
-| yulab.utils | 0.2.0 |
-| zip | 2.3.2 |
-| zlibbioc | 1.52.0 |
-| zoo | 1.8-13 |
-| base | 4.4.3 |
-| boot | 1.3-31 |
-| class | 7.3-23 |
-| cluster | 2.1.8.1 |
-| codetools | 0.2-19 |
-| compiler | 4.4.3 |
-| datasets | 4.4.3 |
-| foreign | 0.8-88 |
-| graphics | 4.4.3 |
-| grDevices | 4.4.3 |
-| grid | 4.4.3 |
-| KernSmooth | 2.23-26 |
-| lattice | 0.22-5 |
-| MASS | 7.3-65 |
-| Matrix | 1.7-3 |
-| methods | 4.4.3 |
-| mgcv | 1.9-1 |
-| nlme | 3.1-167 |
-| nnet | 7.3-20 |
-| parallel | 4.4.3 |
-| rpart | 4.1.24 |
-| spatial | 7.3-15 |
-| splines | 4.4.3 |
-| stats | 4.4.3 |
-| stats4 | 4.4.3 |
-| survival | 3.8-3 |
-| tcltk | 4.4.3 |
-| tools | 4.4.3 |
-| utils | 4.4.3 |
+| Package | Version | Citation |
+|---------|---------|----------|
+| abind | 1.4-8 | Citation not available |
+| annotate | 1.84.0 | Citation not available |
+| AnnotationDbi | 1.68.0 | Citation not available |
+| AnnotationFilter | 1.30.0 | Citation not available |
+| ape | 5.8-1 | Citation not available |
+| aplot | 0.2.5 | Citation not available |
+| ash | 1.0-15 | Citation not available |
+| askpass | 1.2.1 | Citation not available |
+| assorthead | 1.0.1 | Citation not available |
+| Azimuth | 0.5.0 | Citation not available |
+| backports | 1.5.0 | Citation not available |
+| base64enc | 0.1-3 | Citation not available |
+| beachmat | 2.22.0 | Citation not available |
+| beeswarm | 0.4.0 | Citation not available |
+| BH | 1.87.0-1 | Citation not available |
+| Biobase | 2.66.0 | Citation not available |
+| BiocGenerics | 0.52.0 | Citation not available |
+| BiocIO | 1.16.0 | Citation not available |
+| BiocManager | 1.30.25 | Citation not available |
+| BiocNeighbors | 2.0.1 | Citation not available |
+| BiocParallel | 1.40.0 | Citation not available |
+| BiocSingular | 1.22.0 | Citation not available |
+| BiocVersion | 3.20.0 | Citation not available |
+| Biostrings | 2.74.1 | Citation not available |
+| bit | 4.6.0 | Citation not available |
+| bit64 | 4.6.0-1 | Citation not available |
+| bitops | 1.0-9 | Citation not available |
+| blob | 1.2.4 | Citation not available |
+| BPCells | 0.3.0 | Citation not available |
+| brew | 1.0-10 | Citation not available |
+| brio | 1.1.5 | Citation not available |
+| broom | 1.0.8 | Citation not available |
+| BSgenome | 1.74.0 | Citation not available |
+| BSgenome.Hsapiens.UCSC.hg38 | 1.4.5 | Citation not available |
+| bslib | 0.9.0 | Citation not available |
+| cachem | 1.1.0 | Citation not available |
+| Cairo | 1.6-2 | Citation not available |
+| callr | 3.7.6 | Citation not available |
+| car | 3.1-3 | Citation not available |
+| carData | 3.0-5 | Citation not available |
+| caTools | 1.18.3 | Citation not available |
+| CellChat | 2.1.2 | Citation not available |
+| cellranger | 1.1.0 | Citation not available |
+| circlize | 0.4.16 | Citation not available |
+| cli | 3.6.4 | Citation not available |
+| clipr | 0.8.0 | Citation not available |
+| clue | 0.3-66 | Citation not available |
+| clusterProfiler | 4.14.6 | Citation not available |
+| CNEr | 1.42.0 | Citation not available |
+| coda | 0.19-4.1 | Citation not available |
+| collections | 0.3.7 | Citation not available |
+| colorspace | 2.1-1 | Citation not available |
+| colourpicker | 1.3.0 | Citation not available |
+| commonmark | 1.9.5 | Citation not available |
+| ComplexHeatmap | 2.22.0 | Citation not available |
+| corrplot | 0.95 | Citation not available |
+| cowplot | 1.1.3 | Citation not available |
+| cpp11 | 0.5.2 | Citation not available |
+| crayon | 1.5.3 | Citation not available |
+| credentials | 2.0.2 | Citation not available |
+| crosstalk | 1.2.1 | Citation not available |
+| curl | 6.2.2 | Citation not available |
+| data.table | 1.17.0 | Citation not available |
+| DBI | 1.2.3 | Citation not available |
+| DelayedArray | 0.32.0 | Citation not available |
+| DelayedMatrixStats | 1.28.1 | Citation not available |
+| deldir | 2.0-4 | Citation not available |
+| DEoptimR | 1.1-3-1 | Citation not available |
+| Deriv | 4.1.6 | Citation not available |
+| desc | 1.4.3 | Citation not available |
+| DESeq2 | 1.46.0 | Citation not available |
+| devtools | 2.4.5 | Citation not available |
+| diffobj | 0.3.5 | Citation not available |
+| digest | 0.6.37 | Citation not available |
+| DirichletMultinomial | 1.48.0 | Citation not available |
+| dittoSeq | 1.18.0 | Citation not available |
+| do | 2.0.0.1 | Citation not available |
+| doBy | 4.6.25 | Citation not available |
+| doParallel | 1.0.17 | Citation not available |
+| DOSE | 4.0.1 | Citation not available |
+| dotCall64 | 1.2 | Citation not available |
+| downlit | 0.4.4 | Citation not available |
+| dplyr | 1.1.4 | Citation not available |
+| dqrng | 0.4.1 | Citation not available |
+| DT | 0.33 | Citation not available |
+| edgeR | 4.4.2 | Citation not available |
+| ellipsis | 0.3.2 | Citation not available |
+| enrichplot | 1.26.6 | Citation not available |
+| EnsDb.Hsapiens.v86 | 2.99.0 | Citation not available |
+| ensembldb | 2.30.0 | Citation not available |
+| evaluate | 1.0.3 | Citation not available |
+| extrafont | 0.19 | Citation not available |
+| extrafontdb | 1.0 | Citation not available |
+| fansi | 1.0.6 | Citation not available |
+| farver | 2.1.2 | Citation not available |
+| fastDummies | 1.7.5 | Citation not available |
+| fastmap | 1.2.0 | Citation not available |
+| fastmatch | 1.1-6 | Citation not available |
+| fgsea | 1.32.4 | Citation not available |
+| fitdistrplus | 1.2-2 | Citation not available |
+| FNN | 1.1.4.1 | Citation not available |
+| fontawesome | 0.5.3 | Citation not available |
+| foreach | 1.5.2 | Citation not available |
+| formatR | 1.14 | Citation not available |
+| Formula | 1.2-5 | Citation not available |
+| fs | 1.6.5 | Citation not available |
+| futile.logger | 1.4.3 | Citation not available |
+| futile.options | 1.0.1 | Citation not available |
+| future | 1.34.0 | Citation not available |
+| future.apply | 1.11.3 | Citation not available |
+| gargle | 1.5.2 | Citation not available |
+| generics | 0.1.3 | Citation not available |
+| GenomeInfoDb | 1.42.3 | Citation not available |
+| GenomeInfoDbData | 1.2.13 | Citation not available |
+| GenomicAlignments | 1.42.0 | Citation not available |
+| GenomicFeatures | 1.58.0 | Citation not available |
+| GenomicRanges | 1.58.0 | Citation not available |
+| gert | 2.1.5 | Citation not available |
+| GetoptLong | 1.0.5 | Citation not available |
+| ggalluvial | 0.12.5 | Citation not available |
+| ggalt | 0.4.0 | Citation not available |
+| ggbeeswarm | 0.7.2 | Citation not available |
+| ggExtra | 0.10.1 | Citation not available |
+| ggforce | 0.4.2 | Citation not available |
+| ggfun | 0.1.8 | Citation not available |
+| gghalves | 0.1.4 | Citation not available |
+| ggnetwork | 0.5.13 | Citation not available |
+| ggnewscale | 0.5.1 | Citation not available |
+| ggplot2 | 3.5.1 | Citation not available |
+| ggplotify | 0.1.2 | Citation not available |
+| ggpubr | 0.6.0 | Citation not available |
+| ggrastr | 1.0.2 | Citation not available |
+| ggrepel | 0.9.6 | Citation not available |
+| ggridges | 0.5.6 | Citation not available |
+| ggsci | 3.2.0 | Citation not available |
+| ggsignif | 0.6.4 | Citation not available |
+| ggtangle | 0.0.6 | Citation not available |
+| ggtree | 3.14.0 | Citation not available |
+| gh | 1.4.1 | Citation not available |
+| gitcreds | 0.1.2 | Citation not available |
+| glmGamPoi | 1.18.0 | Citation not available |
+| glmnet | 4.1-8 | Citation not available |
+| GlobalOptions | 0.1.2 | Citation not available |
+| globals | 0.16.3 | Citation not available |
+| glue | 1.8.0 | Citation not available |
+| GO.db | 3.20.0 | Citation not available |
+| goftest | 1.2-3 | Citation not available |
+| googledrive | 2.1.1 | Citation not available |
+| googlesheets4 | 1.1.1 | Citation not available |
+| GOSemSim | 2.32.0 | Citation not available |
+| gplots | 3.2.0 | Citation not available |
+| gridBase | 0.4-7 | Citation not available |
+| gridExtra | 2.3 | Citation not available |
+| gridGraphics | 0.5-1 | Citation not available |
+| gson | 0.1.0 | Citation not available |
+| gtable | 0.3.6 | Citation not available |
+| gtools | 3.9.5 | Citation not available |
+| HDF5Array | 1.34.0 | Citation not available |
+| hdf5r | 1.3.12 | Citation not available |
+| here | 1.0.1 | Citation not available |
+| hexbin | 1.28.5 | Citation not available |
+| highr | 0.11 | Citation not available |
+| hms | 1.1.3 | Citation not available |
+| htmltools | 0.5.8.1 | Citation not available |
+| htmlwidgets | 1.6.4 | Citation not available |
+| httpuv | 1.6.15 | Citation not available |
+| httr | 1.4.7 | Citation not available |
+| httr2 | 1.1.2 | Citation not available |
+| ica | 1.0-3 | Citation not available |
+| ids | 1.0.1 | Citation not available |
+| igraph | 2.1.4 | Citation not available |
+| ini | 0.3.1 | Citation not available |
+| IRanges | 2.40.1 | Citation not available |
+| IRdisplay | 1.1 | Citation not available |
+| IRkernel | 1.3.2 | Citation not available |
+| irlba | 2.3.5.1 | Citation not available |
+| isoband | 0.2.7 | Citation not available |
+| iterators | 1.0.14 | Citation not available |
+| JASPAR2020 | 0.99.10 | Citation not available |
+| jquerylib | 0.1.4 | Citation not available |
+| jsonlite | 2.0.0 | Citation not available |
+| KEGGREST | 1.46.0 | Citation not available |
+| knitr | 1.50 | Citation not available |
+| labeling | 0.4.3 | Citation not available |
+| lambda.r | 1.2.4 | Citation not available |
+| languageserver | 0.3.16 | Citation not available |
+| later | 1.4.1 | Citation not available |
+| lazyeval | 0.2.2 | Citation not available |
+| leidenbase | 0.1.32 | Citation not available |
+| lifecycle | 1.0.4 | Citation not available |
+| limma | 3.62.2 | Citation not available |
+| lintr | 3.2.0 | Citation not available |
+| listenv | 0.9.1 | Citation not available |
+| lme4 | 1.1-37 | Citation not available |
+| lmtest | 0.9-40 | Citation not available |
+| locfit | 1.5-9.12 | Citation not available |
+| magick | 2.8.6 | Citation not available |
+| magrittr | 2.0.3 | Citation not available |
+| maps | 3.4.2.1 | Citation not available |
+| MAST | 1.32.0 | Citation not available |
+| mathjaxr | 1.6-0 | Citation not available |
+| MatrixGenerics | 1.18.1 | Citation not available |
+| MatrixModels | 0.5-4 | Citation not available |
+| matrixStats | 1.5.0 | Citation not available |
+| memoise | 2.0.1 | Citation not available |
+| metap | 1.12 | Citation not available |
+| MetBrewer | 0.2.0 | Citation not available |
+| microbenchmark | 1.5.0 | Citation not available |
+| mime | 0.13 | Citation not available |
+| miniUI | 0.1.1.1 | Citation not available |
+| minqa | 1.2.8 | Citation not available |
+| mnormt | 2.1.1 | Citation not available |
+| modelr | 0.1.11 | Citation not available |
+| multcomp | 1.4-28 | Citation not available |
+| multtest | 2.62.0 | Citation not available |
+| munsell | 0.5.1 | Citation not available |
+| mutoss | 0.1-13 | Citation not available |
+| mvtnorm | 1.3-3 | Citation not available |
+| network | 1.19.0 | Citation not available |
+| nloptr | 2.2.1 | Citation not available |
+| NMF | 0.28 | Citation not available |
+| numDeriv | 2016.8-1.1 | Citation not available |
+| openssl | 2.3.2 | Citation not available |
+| openxlsx | 4.2.8 | Citation not available |
+| org.Hs.eg.db | 3.20.0 | Citation not available |
+| parallelly | 1.43.0 | Citation not available |
+| patchwork | 1.3.0 | Citation not available |
+| pbapply | 1.7-2 | Citation not available |
+| pbdZMQ | 0.3-13 | Citation not available |
+| pbkrtest | 0.5.3 | Citation not available |
+| PCAtools | 2.18.0 | Citation not available |
+| pheatmap | 1.0.12 | Citation not available |
+| pillar | 1.10.1 | Citation not available |
+| pkgbuild | 1.4.7 | Citation not available |
+| pkgconfig | 2.0.3 | Citation not available |
+| pkgdown | 2.1.1 | Citation not available |
+| pkgload | 1.4.0 | Citation not available |
+| plogr | 0.2.0 | Citation not available |
+| plotly | 4.10.4 | Citation not available |
+| plotrix | 3.8-4 | Citation not available |
+| plyr | 1.8.9 | Citation not available |
+| png | 0.1-8 | Citation not available |
+| polyclip | 1.10-7 | Citation not available |
+| polynom | 1.4-1 | Citation not available |
+| poweRlaw | 1.0.0 | Citation not available |
+| pracma | 2.4.4 | Citation not available |
+| praise | 1.0.0 | Citation not available |
+| presto | 1.0.0 | Citation not available |
+| prettyunits | 1.2.0 | Citation not available |
+| pROC | 1.18.5 | Citation not available |
+| processx | 3.8.6 | Citation not available |
+| profvis | 0.4.0 | Citation not available |
+| progress | 1.2.3 | Citation not available |
+| progressr | 0.15.1 | Citation not available |
+| proj4 | 1.0-15 | Citation not available |
+| promises | 1.3.2 | Citation not available |
+| ProtGenerics | 1.38.0 | Citation not available |
+| ps | 1.9.0 | Citation not available |
+| purrr | 1.0.4 | Citation not available |
+| pwalign | 1.2.0 | Citation not available |
+| qqconf | 1.3.2 | Citation not available |
+| quantreg | 6.1 | Citation not available |
+| qvalue | 2.38.0 | Citation not available |
+| R.cache | 0.16.0 | Citation not available |
+| R.methodsS3 | 1.8.2 | Citation not available |
+| R.oo | 1.27.0 | Citation not available |
+| R.utils | 2.13.0 | Citation not available |
+| R6 | 2.6.1 | Citation not available |
+| ragg | 1.3.3 | Citation not available |
+| RANN | 2.6.2 | Citation not available |
+| rappdirs | 0.3.3 | Citation not available |
+| rbibutils | 2.3 | Citation not available |
+| RCircos | 1.2.2 | Citation not available |
+| rcmdcheck | 1.4.0 | Citation not available |
+| RColorBrewer | 1.1-3 | Citation not available |
+| Rcpp | 1.0.14 | Citation not available |
+| RcppAnnoy | 0.0.22 | Citation not available |
+| RcppArmadillo | 14.4.1-1 | Citation not available |
+| RcppEigen | 0.3.4.0.2 | Citation not available |
+| RcppHNSW | 0.6.0 | Citation not available |
+| RcppML | 0.3.7 | Citation not available |
+| RcppProgress | 0.4.2 | Citation not available |
+| RcppRoll | 0.3.1 | Citation not available |
+| RcppTOML | 0.2.3 | Citation not available |
+| RCurl | 1.98-1.17 | Citation not available |
+| Rdpack | 2.6.3 | Citation not available |
+| readr | 2.1.5 | Citation not available |
+| reformulas | 0.4.0 | Citation not available |
+| registry | 0.5-1 | Citation not available |
+| rematch | 2.0.0 | Citation not available |
+| rematch2 | 2.1.2 | Citation not available |
+| remotes | 2.5.0 | Citation not available |
+| repr | 1.1.7 | Citation not available |
+| reshape2 | 1.4.4 | Citation not available |
+| restfulr | 0.0.15 | Citation not available |
+| reticulate | 1.42.0 | Citation not available |
+| rex | 1.2.1 | Citation not available |
+| rhdf5 | 2.50.2 | Citation not available |
+| rhdf5filters | 1.18.1 | Citation not available |
+| Rhdf5lib | 1.28.0 | Citation not available |
+| Rhtslib | 3.2.0 | Citation not available |
+| rjson | 0.2.23 | Citation not available |
+| rlang | 1.1.5 | Citation not available |
+| rmarkdown | 2.29 | Citation not available |
+| rngtools | 1.5.2 | Citation not available |
+| robustbase | 0.99-4-1 | Citation not available |
+| ROCR | 1.0-11 | Citation not available |
+| roxygen2 | 7.3.2 | Citation not available |
+| rprojroot | 2.0.4 | Citation not available |
+| Rsamtools | 2.22.0 | Citation not available |
+| RSpectra | 0.16-2 | Citation not available |
+| RSQLite | 2.3.9 | Citation not available |
+| rstatix | 0.7.2 | Citation not available |
+| rstudioapi | 0.17.1 | Citation not available |
+| rsvd | 1.0.5 | Citation not available |
+| rtracklayer | 1.66.0 | Citation not available |
+| Rtsne | 0.17 | Citation not available |
+| Rttf2pt1 | 1.3.12 | Citation not available |
+| rversions | 2.1.2 | Citation not available |
+| rvest | 1.0.4 | Citation not available |
+| S4Arrays | 1.6.0 | Citation not available |
+| S4Vectors | 0.44.0 | Citation not available |
+| sandwich | 3.1-1 | Citation not available |
+| sass | 0.4.9 | Citation not available |
+| ScaledMatrix | 1.14.0 | Citation not available |
+| scales | 1.3.0 | Citation not available |
+| scater | 1.34.1 | Citation not available |
+| scattermore | 1.2 | Citation not available |
+| scatterpie | 0.2.4 | Citation not available |
+| sctransform | 0.4.1 | Citation not available |
+| scuttle | 1.16.0 | Citation not available |
+| selectr | 0.4-2 | Citation not available |
+| seqLogo | 1.72.0 | Citation not available |
+| sessioninfo | 1.2.3 | Citation not available |
+| Seurat | 5.2.1 | Citation not available |
+| SeuratData | 0.2.2.9002 | Citation not available |
+| SeuratDisk | 0.0.0.9021 | Citation not available |
+| SeuratObject | 5.0.2 | Citation not available |
+| SeuratWrappers | 0.4.0 | Citation not available |
+| shape | 1.4.6.1 | Citation not available |
+| shiny | 1.10.0 | Citation not available |
+| shinyBS | 0.61.1 | Citation not available |
+| shinydashboard | 0.7.2 | Citation not available |
+| shinyjs | 2.1.0 | Citation not available |
+| Signac | 1.14.0 | Citation not available |
+| SingleCellExperiment | 1.28.1 | Citation not available |
+| sitmo | 2.0.2 | Citation not available |
+| sn | 2.1.1 | Citation not available |
+| sna | 2.8 | Citation not available |
+| snow | 0.4-4 | Citation not available |
+| SoupX | 1.6.2 | Citation not available |
+| sourcetools | 0.1.7-1 | Citation not available |
+| sp | 2.2-0 | Citation not available |
+| spam | 2.11-1 | Citation not available |
+| SparseArray | 1.6.2 | Citation not available |
+| SparseM | 1.84-2 | Citation not available |
+| sparseMatrixStats | 1.18.0 | Citation not available |
+| spatstat.data | 3.1-6 | Citation not available |
+| spatstat.explore | 3.4-2 | Citation not available |
+| spatstat.geom | 3.3-6 | Citation not available |
+| spatstat.random | 3.3-3 | Citation not available |
+| spatstat.sparse | 3.1-0 | Citation not available |
+| spatstat.univar | 3.1-2 | Citation not available |
+| spatstat.utils | 3.1-3 | Citation not available |
+| statmod | 1.5.0 | Citation not available |
+| statnet.common | 4.11.0 | Citation not available |
+| stringi | 1.8.7 | Citation not available |
+| stringr | 1.5.1 | Citation not available |
+| styler | 1.10.3 | Citation not available |
+| SummarizedExperiment | 1.36.0 | Citation not available |
+| svglite | 2.1.3 | Citation not available |
+| sys | 3.4.3 | Citation not available |
+| systemfonts | 1.2.1 | Citation not available |
+| tensor | 1.5 | Citation not available |
+| testthat | 3.2.3 | Citation not available |
+| textshaping | 1.0.0 | Citation not available |
+| TFBSTools | 1.44.0 | Citation not available |
+| TFisher | 0.2.0 | Citation not available |
+| TFMPvalue | 0.0.9 | Citation not available |
+| TH.data | 1.1-3 | Citation not available |
+| tibble | 3.2.1 | Citation not available |
+| tidyr | 1.3.1 | Citation not available |
+| tidyselect | 1.2.1 | Citation not available |
+| tidytree | 0.4.6 | Citation not available |
+| tinytex | 0.56 | Citation not available |
+| tmcn | 0.2-13 | Citation not available |
+| treeio | 1.30.0 | Citation not available |
+| tweenr | 2.0.3 | Citation not available |
+| tzdb | 0.5.0 | Citation not available |
+| UCSC.utils | 1.2.0 | Citation not available |
+| urlchecker | 1.0.1 | Citation not available |
+| usethis | 3.1.0 | Citation not available |
+| utf8 | 1.2.4 | Citation not available |
+| uuid | 1.2-1 | Citation not available |
+| uwot | 0.2.3 | Citation not available |
+| vctrs | 0.6.5 | Citation not available |
+| VennDiagram | 1.7.3 | Citation not available |
+| vipor | 0.4.7 | Citation not available |
+| viridis | 0.6.5 | Citation not available |
+| viridisLite | 0.4.2 | Citation not available |
+| vroom | 1.6.5 | Citation not available |
+| waldo | 0.6.1 | Citation not available |
+| whisker | 0.4.1 | Citation not available |
+| withr | 3.0.2 | Citation not available |
+| xfun | 0.51 | Citation not available |
+| XML | 3.99-0.18 | Citation not available |
+| xml2 | 1.3.8 | Citation not available |
+| xmlparsedata | 1.0.5 | Citation not available |
+| xopen | 1.0.1 | Citation not available |
+| xtable | 1.8-4 | Citation not available |
+| XVector | 0.46.0 | Citation not available |
+| yaml | 2.3.10 | Citation not available |
+| yulab.utils | 0.2.0 | Citation not available |
+| zip | 2.3.2 | Citation not available |
+| zlibbioc | 1.52.0 | Citation not available |
+| zoo | 1.8-13 | Citation not available |
+| base | 4.4.3 | Citation not available |
+| boot | 1.3-31 | Citation not available |
+| class | 7.3-23 | Citation not available |
+| cluster | 2.1.8.1 | Citation not available |
+| codetools | 0.2-19 | Citation not available |
+| compiler | 4.4.3 | Citation not available |
+| datasets | 4.4.3 | Citation not available |
+| foreign | 0.8-88 | Citation not available |
+| graphics | 4.4.3 | Citation not available |
+| grDevices | 4.4.3 | Citation not available |
+| grid | 4.4.3 | Citation not available |
+| KernSmooth | 2.23-26 | Citation not available |
+| lattice | 0.22-5 | Citation not available |
+| MASS | 7.3-65 | Citation not available |
+| Matrix | 1.7-3 | Citation not available |
+| methods | 4.4.3 | Citation not available |
+| mgcv | 1.9-1 | Citation not available |
+| nlme | 3.1-167 | Citation not available |
+| nnet | 7.3-20 | Citation not available |
+| parallel | 4.4.3 | Citation not available |
+| rpart | 4.1.24 | Citation not available |
+| spatial | 7.3-15 | Citation not available |
+| splines | 4.4.3 | Citation not available |
+| stats | 4.4.3 | Citation not available |
+| stats4 | 4.4.3 | Citation not available |
+| survival | 3.8-3 | Citation not available |
+| tcltk | 4.4.3 | Citation not available |
+| tools | 4.4.3 | Citation not available |
+| utils | 4.4.3 | Citation not available |
 
 
