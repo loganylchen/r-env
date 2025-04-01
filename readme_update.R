@@ -58,10 +58,13 @@ generate_unique_citations <- function(packages) {
 }
 
 # 写入文件
-writeLines(md_content, output_file)
+
 
 # 在文件写入部分添加引用生成（修改这部分）
 if (length(args) > 2) {
+    writeLines(md_content, output_file)
   writeLines(generate_unique_citations(pkg_data$Package), args[3]) 
+}else{
+    writeLines(c(md_content,generate_unique_citations(pkg_data$Package)), output_file)
 }
 
