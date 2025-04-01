@@ -6,7 +6,7 @@ ADD devtools_packages.txt /tmp/
 ADD CRAN_packages.txt /tmp/
 
 
-RUN Rscript /tmp/install_packages_R.R 
+RUN Rscript /tmp/install_packages.R 
 
 RUN apt autoremove && \
     apt clean && \
