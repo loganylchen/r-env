@@ -1,13 +1,12 @@
-FROM btrspg/vscode-base:0.0.5
+FROM btrspg/vscode-base:0.0.6
 
 ADD install_packages_R.R /tmp/
-ADD packages.bash /opt/bin/
-
-RUN Rscript /tmp/install_packages_R.R \
-    && chmod +x /opt/bin/packages.bash \
-    && /opt/bin/packages.bash
+ADD bioconductor_packages.txt /tmp/
+ADD devtools_packages.txt /tmp/
+ADD CRAN_packages.txt /tmp/
 
 
+RUN Rscript /tmp/install_packages_R.R 
 
 RUN apt autoremove && \
     apt clean && \

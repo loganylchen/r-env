@@ -1,28 +1,24 @@
 #! /bin/env Rscript
 
+script_dir <- dirname(sys.frame(1)$ofile)
 
-library(Seurat)
-library(SeuratData)
-library(patchwork)
-library(ggplot2)
-library(cowplot)
-library(glmnet)
-library(RCircos)
-library(magrittr)
-library(stringr)
-library(ggplot2)
-library(clusterProfiler)
-library(org.Hs.eg.db)
-library(pROC)
-library(igraph)
-library(RColorBrewer)
-library(Seurat)
-library(glmGamPoi)
-library(MetBrewer)
-library(VennDiagram)
-library(ggalluvial)
-library(pheatmap)
-library(ggExtra)
+base_packages <- scan(file.path(script_dir, "standard_packages.txt"), what="", sep="\n")
+bioc_packages <- scan(file.path(script_dir, "bioconductor_packages.txt"), what="", sep="\n")
+
+devtools_packages <- read.table(file.path(script_dir, "devtools_packages.txt"), 
+                               header = FALSE, 
+                               stringsAsFactors = FALSE)
+
+all_packages <- unique(c(base_packages, bioc_packages, devtools_packages$V2))
+for (pkg in all_packages) {
+    if (!require(pkg, character.only = TRUE)) {
+        stop(paste("Package load filled:", pkg))
+    }
+}
+
+for (pkg in all_packages) {
+    library(pkg,character.only=TRUE)
+}
 
 
 pbmc_data <- Read10X(data.dir = "test_data/filtered_gene_bc_matrices/hg19/")
