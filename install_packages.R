@@ -1,6 +1,8 @@
 setRepositories(ind = 1:3, addURLs = c('https://satijalab.r-universe.dev', 'https://bnprks.r-universe.dev/'))
+args <- commandArgs(trailingOnly = FALSE)
+script_dir <- sub("--file=", "", args[grep("--file=", args)])
 
-script_dir <- dirname(sys.frame(1)$ofile)
+
 base_packages <- scan(file.path(script_dir, "CRAN_packages.txt"), what="", sep="\n")
 bioc_packages <- scan(file.path(script_dir, "bioconductor_packages.txt"), what="", sep="\n")
 github_packages <-  read.table(file.path(script_dir, "devtools_packages.txt"), 
