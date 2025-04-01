@@ -2,4 +2,4 @@ venv/
 .idea/
 .idea
 .DS_Store
-readme_update.bash
+readme_update.R
