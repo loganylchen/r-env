@@ -16,7 +16,7 @@ if (!file.exists(input_file)) {
 }
 
 # 读取CSV文件（自动处理引号）
-pkg_data <- read.csv(input_file, header = TRUE, stringsAsFactors = FALSE,quote=FALSE)
+pkg_data <- read.csv(input_file, header = TRUE, stringsAsFactors = FALSE)
 
 # 生成Markdown内容
 md_content <- c(
