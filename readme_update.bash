@@ -7,9 +7,9 @@ if [ ! -f "$1" ]; then
 fi
 
 # 创建Markdown文件头
-echo "## Installed Packages" > "$2"
-echo "\n| Package | Version |" >> "$2"
-echo "|---------|---------|" >> "$2"
+echo -e "## Installed Packages\n" > "$2"
+echo -e "\n| Package | Version |" >> "$2"
+echo -e "|---------|---------|\n" >> "$2"
 
 # 处理CSV生成表格内容
 awk -F, 'NR>1 {
