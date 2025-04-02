@@ -2,6 +2,14 @@ name: arm64
 
 on:
   push:
+    paths:
+      - 'bionconductor_packages.txt'
+      - 'CRAN_packages.txt'
+      - 'devtools_packages.txt'
+      - 'Dockerfile'
+      - 'install_packages.R'
+      - 'readme_update.R'
+      - '.github/workflows/arm64.yaml'
   release:
   workflow_dispatch:
 
