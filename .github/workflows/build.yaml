@@ -63,7 +63,6 @@ jobs:
             git fetch
             if ! git diff --quiet HEAD origin/main; then
               git merge origin/main main
-              git commit -m "Merge branch 'main' into main [skip ci]"
             fi
             git push
           fi
@@ -118,7 +117,6 @@ jobs:
             git fetch
             if ! git diff --quiet HEAD origin/main; then
               git merge origin/main main
-              git commit -m "Merge branch 'main' into main [skip ci]"
             fi
             git push
           fi
