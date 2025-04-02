@@ -108,7 +108,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add ARM64.md ARM64_installed_packages.csv
-          git commit -m "Update installed packages table in README [skip ci]"
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit"
           else
@@ -120,6 +119,7 @@ jobs:
             fi
             git push
           fi
+          
         
   test_on_amd64:
     runs-on: ubuntu-latest
