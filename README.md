@@ -1,7 +1,8 @@
 # Development environment for single-cell RNA-seq analysis
 
-** Last update: 2025-04-02 02:36:05 UTC**
+**Last update: 2025-04-02 02:48:51 UTC**
 
+![Docker Image Version](https://img.shields.io/docker/v/btrspg/r-env?label=r-env)
 ## Installed Packages with Citations
 
 
