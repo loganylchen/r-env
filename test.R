@@ -1,15 +1,16 @@
 #! /bin/env Rscript
 
-script_dir <- dirname(sys.frame(1)$ofile)
+args <- commandArgs(trailingOnly = FALSE)
+script_path <- sub("--file=", "", args[grep("--file=", args)])
+script_dir <- dirname(script_path)
 
-base_packages <- scan(file.path(script_dir, "standard_packages.txt"), what="", sep="\n")
+base_packages <- scan(file.path(script_dir, "CRAN_packages.txt"), what="", sep="\n")
 bioc_packages <- scan(file.path(script_dir, "bioconductor_packages.txt"), what="", sep="\n")
-
-devtools_packages <- read.table(file.path(script_dir, "devtools_packages.txt"), 
+github_packages <-  read.table(file.path(script_dir, "devtools_packages.txt"), 
                                header = FALSE, 
                                stringsAsFactors = FALSE)
 
-all_packages <- unique(c(base_packages, bioc_packages, devtools_packages$V2))
+all_packages <- unique(c(base_packages, bioc_packages, github_packages$V2))
 for (pkg in all_packages) {
     if (!require(pkg, character.only = TRUE)) {
         stop(paste("Package load filled:", pkg))
