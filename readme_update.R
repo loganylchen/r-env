@@ -32,7 +32,8 @@ generate_table_with_citations <- function(pkg_data) {
   # 生成带引用的表格
   c(
     '# Development environment for single-cell RNA-seq analysis\n',
-    sprintf("** Last update: %s**\n", current_time),
+    sprintf("**Last update: %s**\n", current_time),
+    "![Docker Image Version](https://img.shields.io/docker/v/btrspg/r-env?label=r-env)"
     "## Installed Packages with Citations\n",
     "\n| Package | Version |  ", 
     "|---------|---------|",
