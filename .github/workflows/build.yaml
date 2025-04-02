@@ -54,11 +54,20 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md installed_packages.csv
-          git commit -m "Update installed packages table in README [skip ci]"
-          git fetch 
-          git merge origin/main main
-          git commit -m "Merge branch 'main' into main [skip ci]"
-          git push
+          
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update installed packages table in README [skip ci]"
+            # 检查本地和远程是否有差异
+            git fetch
+            if ! git diff --quiet HEAD origin/main; then
+              git merge origin/main main
+              git commit -m "Merge branch 'main' into main [skip ci]"
+            fi
+            git push
+          fi
+          
   arm64:
     runs-on: ubuntu-22.04c
     steps:
@@ -101,10 +110,19 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add ARM64.md ARM64_installed_packages.csv
           git commit -m "Update installed packages table in README [skip ci]"
-          git fetch 
-          git merge origin/main main
-          git commit -m "Merge branch 'main' into main [skip ci]"
-          git push
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update installed packages table in README [skip ci]"
+            # 检查本地和远程是否有差异
+            git fetch
+            if ! git diff --quiet HEAD origin/main; then
+              git merge origin/main main
+              git commit -m "Merge branch 'main' into main [skip ci]"
+            fi
+            git push
+          fi
+        
   test_on_amd64:
     runs-on: ubuntu-latest
     needs: amd64
