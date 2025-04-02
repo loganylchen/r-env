@@ -22,7 +22,7 @@ write.csv(pkg_data[,c('Package', 'Version')], packages_csv, row.names=FALSE,quot
 
 # 修改后的Markdown生成函数
 generate_table_with_citations <- function(pkg_data) {
-  # 获取引用信息
+  current_time <- format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z")
   citations <- sapply(pkg_data$Package, function(p) {
     tryCatch({
       format(citation(p),style='text')
@@ -31,6 +31,8 @@ generate_table_with_citations <- function(pkg_data) {
   
   # 生成带引用的表格
   c(
+    '# Development environment for single-cell RNA-seq analysis\n',
+    sprintf("** Last update: %s**\n", current_time),
     "## Installed Packages with Citations\n",
     "\n| Package | Version |  ", 
     "|---------|---------|",
