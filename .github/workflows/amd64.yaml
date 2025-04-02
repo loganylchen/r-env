@@ -9,7 +9,7 @@ on:
         - 'Dockerfile'
         - 'install_packages.R'
         - 'readme_update.R'
-        - '.github/workflows/arm64.yaml'
+        - '.github/workflows/amd64.yaml'
   release:
   workflow_dispatch:
 
