@@ -55,6 +55,9 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md installed_packages.csv
           git commit -m "Update installed packages table in README [skip ci]"
+          git fetch 
+          git merge origin/main main
+          git commit -m "Merge branch 'main' into main [skip ci]"
           git push
   arm64:
     runs-on: ubuntu-22.04c
@@ -98,6 +101,9 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add ARM64.md ARM64_installed_packages.csv
           git commit -m "Update installed packages table in README [skip ci]"
+          git fetch 
+          git merge origin/main main
+          git commit -m "Merge branch 'main' into main [skip ci]"
           git push
   test_on_amd64:
     runs-on: ubuntu-latest
